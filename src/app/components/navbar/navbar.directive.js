@@ -11,7 +11,8 @@
       restrict: 'E',
       templateUrl: 'app/components/navbar/navbar.html',
       scope: {
-          creationDate: '='
+          creationDate: '=',
+          eventNews: '='
       },
       controller: NavbarController,
       controllerAs: 'vm',
