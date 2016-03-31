@@ -1,0 +1,27 @@
+
+<div layout="vertical" layout-fill layout>
+
+  <md-content layout="column" flex layout-fill>
+    <header>
+      <acme-navbar creation-date="event.creationDate"></acme-navbar>
+    </header>
+
+    <div layout="row" style="height:64px">
+      <div flex="50" style="background:#ff4e00;" layout="row" layout-align="center center">Time Until</div>
+      <div flex="50" style="background:#313131;" layout="row" layout-align="center center"><acme-malarkey extra-values="event.news"></acme-malarkey></div>
+    </div>
+
+    <section flex layout="column" layout-align="space-around center" class="jumbotron" style="
+      background: url(http://themeforest.quadcodes.com/site/studioo1/multi-page/assets/img/placeholder/11.jpg) center no-repeat #212121;
+      margin: 0">
+      <div>
+        <h1>Staytrue</h1>
+        <p class="lead">El mas grandioso grupo de todos los tiempos</p>
+      </div>
+      <div>
+        <md-button class="md-raised animated infinite" ng-class="event.classAnimation" ng-click="event.showToastr()">Comprar Entradas</md-button>
+      </div>
+    </section>
+  </md-content>
+
+</div>
