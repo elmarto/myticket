@@ -1,0 +1,31 @@
+<video autoplay="" loop="" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" style="position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto; 
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg') no-repeat;
+  background-size: cover;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;">
+  <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
+  <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
+</video>
+
+<section flex layout="column" layout-align="space-around center" class="jumbotron" style="margin: 0">
+  <div layout-padding style="position: relative; background: rgba(0,0,0,0.5);">
+  <div layout="column">
+    <h1>TECNOFEST</h1>
+    <div class="lead">El evento mas trascendental de todos los tiempos</div>
+  </div>
+</div>
+<div>
+  <md-button class="md-raised animated infinite" ng-class="event.classAnimation" ng-click="event.showToastr()">Comprar Entradas</md-button>
+</div>
+</section>
+
